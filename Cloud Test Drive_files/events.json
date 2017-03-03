@@ -1,0 +1,123 @@
+events = [   
+
+	{
+    "Title":"<a href='https://stbeehive.oracle.com/content/dav/st/CST%20Communication/Documents/Emails/LBaaS%20on%20BMCS.html' target='blank'>IaaS Roadmap</a>",
+    "Date":"23 Feb 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='cloud-test-drive.html' target='blank'>Cloud Test Drive -<br> South Africa - ESKOM</a>",
+    "Date":"23 Feb 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Bruettisellen, Switzerland</a>",
+    "Date":"02 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='cloud-test-drive.html' target='blank'>Cloud Test Drive - <br>Bruettisellen, Switzerland</a>",
+    "Date":"03 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Geneva, Switzerland</a>",
+    "Date":"07 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Oslo, Norway</a>",
+    "Date":"08 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>London 3</a>",
+    "Date":"13 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>London 4</a>",
+    "Date":"14 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Finland</a>",
+    "Date":"15 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Utrecht, Netherlands</a>",
+    "Date":"21 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Dubai OUG - 1</a>",
+    "Date":"21 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Madrid, Spain</a>",
+    "Date":"22 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Dubai OUG - 2</a>",
+    "Date":"22 Mar 2017",
+    "Excerpt":" "
+    },
+    {
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Barcelona, Spain</a>",
+    "Date":"23 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>London 3</a>",
+    "Date":"23 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>London 3</a>",
+    "Date":"24 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>London 4</a>",
+    "Date":"24 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Brussels</a>",
+    "Date":"28 Mar 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Frankfurt, Germany - 1</a>",
+    "Date":"03 Apr 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Frankfurt, Germany - 2</a>",
+    "Date":"04 Apr 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Madrid, Spain</a>",
+    "Date":"05 Apr 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Barcelona, Spain</a>",
+    "Date":"06 Apr 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Dublin, Ireland</a>",
+    "Date":"11 Apr 2017",
+    "Excerpt":" "
+    },
+	{
+    "Title":"<a href='#!' target='blank'>Cloud Test Drive - <br>Luxembourg</a>",
+    "Date":"13 Apr 2017",
+    "Excerpt":" "
+    }
+]

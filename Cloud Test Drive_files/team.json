@@ -1,0 +1,79 @@
+teamData={
+"lobTitle":"Cloud Test Drive",
+"updated":"",
+"msgTitle":"",
+"message":"",
+"lobOwner":{
+"Name":"Martijn Vlek",
+"Email":"martijn.vlek@oracle.com",
+"Image":"martin_vlek.png",
+"Role":"Sr Director FMW",
+"AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:127528170830867"
+},
+"DivisionalChampions":[ 
+    {
+    "Name":"",
+    "Email":"",
+    "Image":"",
+    "Role":"",
+    "Region":"",
+    "Country":"",
+    "AriaProfile":""
+    }
+],
+"RegionalChampions":[
+    {
+    "Name":"",
+    "Email":"",
+    "Image":"",
+    "Role":"",
+    "Region":"",
+    "Country":"",
+    "AriaProfile":""
+    }
+
+],
+"TopInfluencers":[
+
+    {
+    "Name":"Thrasos Thrasyvoulou",
+    "Email":"thrasos.thrasyvoulou@oracle.com",
+    "Image":"thrasos_thrasyvoulou.jpg",
+    "Role":"Director Business Development for Integration PaaS Business Development",
+    "Region":"",
+    "Country":"",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:330072153802534"
+    },
+    
+    {
+    "Name":"Jan Leemans",
+    "Email":"jan.leemans@oracle.com",
+    "Image":"jan_leemans.png",
+    "Role":"Director Business Development for App Build and Deploy",
+    "Region":"",
+    "Country":"",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:106935273609697::NO::PERSON_ID:436397390823848"
+    },
+    
+    {
+    "Name":"Shaukat Desai",
+    "Email":"shaukat.desai@oracle.com",
+    "Image":"shaukat.png",
+    "Role":"Principal Sales Consultant, Cloud Platform Solutions - EMEA",
+    "Region":"",
+    "Country":"",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:427134313608074"
+    },
+    {
+    "Name":"Ewan Slater",
+    "Email":"ewan.slater@oracle.com",
+    "Image":"ewan.png",
+    "Role":"Principal Sales Consultant, Cloud Platform Solutions - EMEA",
+    "Region":"",
+    "Country":"",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:487970467406876"
+    },
+    
+    
+]
+}
