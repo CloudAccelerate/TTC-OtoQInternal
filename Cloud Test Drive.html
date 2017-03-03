@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <!-- saved from url=(0096)https://stbeehive.oracle.com/content/dav/st/Technology%20and%20Systems/web/cloud-test-drive.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script>
+    <head>
+
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Touch The Cloud</title>
 
-    <script async="" src="./scripts/analytics.js.download"></script>
-    <script src="./scripts/pace.min.js.download"></script>
-    <link href="./css/pace.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/font-awesome.min.css" rel="stylesheet">
-    <link href="./css/owl.carousel.css" rel="stylesheet">
-    <link href="./css/magnific-popup.css" rel="stylesheet">
-    <link href="./css/slimmenu.min.css" rel="stylesheet">
-    <link href="./css/helper.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/added-style.css" rel="stylesheet">
-    <link href="./css/SpecialCarousel.css" rel="stylesheet">
+    <script src="js/pace.min.js"></script>
+    <link href="css/pace.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/slimmenu.min.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/helper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/added-style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,6 +30,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -41,6 +47,7 @@
         ga('create', 'UA-83347744-1', 'auto');
         ga('send', 'pageview');
     </script>
+
 </head>
 
 <body id="page-lob" class="lob-page  pace-done"><div id="fetcher"><div><!--
@@ -2779,42 +2786,241 @@ Template: Footer
     <!-- /#footer -->
 
 
-    <script src="./scripts/jquery.js.download"></script>
-    
-    <script src="./scripts/bootstrap.min.js.download"></script>
+    <script src="js/jquery.js"></script>
 
-    <script src="./scripts/helper.js.download"></script>
+    <script src="js/helper.js"></script>
 
     <!-- Plugins -->
-    <script src="./scripts/jquery.slimmenu.min.js.download"></script>
-    <script src="./scripts/owl.carousel.min.js.download"></script>
-    <script src="./scripts/jquery.magnific-popup.min.js.download"></script>
-    <script src="./scripts/highcharts.js.download"></script>
-    
-    <script src="./scripts/typeahead.jquery.min.js.download"></script>
-    <script src="./scripts/jquery.appear.js.download"></script>
+    <script src="js/jquery.slimmenu.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typeahead.jquery.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
     <!-- Data -->
-    <script type="text/javascript" src="./scripts/team.json"></script>
-    <script type="text/javascript" src="./scripts/updates.json"></script>
-    <script type="text/javascript" src="./scripts/dashboard.json"></script>
-    <script type="text/javascript" src="./scripts/content.json"></script>
+    <script type="text/javascript" src="js/cloud/home_updates.json"></script>
+    <script type="text/javascript" src="js/cloud/news.json"></script>
+    <script type="text/javascript" src="js/cloud/team.json"></script>
+
+    <!-- Templating -->
+    <script src="js/handlebars.js"></script>
+    <script src="js/cloud/template.js"></script>
 
     <script>
         var $data_directory = "img/";
     </script>
 
-    <!-- Templating -->
-    <script src="./scripts/handlebars.js.download"></script>
-    <script src="./scripts/template.js.download"></script>
+<script>
+        $(function() {
 
 
-    <script src="./scripts/script.js.download"></script>
+            // Select and loop the container element of the elements you want to equalise
+            $('.panel').each(function() {
 
-<!-- Start SiteCatalyst code -->
-    <script language="JavaScript" src="./scripts/ora_beehive.js.download"></script>
-    <script type="text/javascript" src="./scripts/ora_code_beehive.js.download"></script>
-    <script type="text/javascript" src="./scripts/ora_code.js.download"></script>
-<!-- End SiteCatalyst code -->
+                // Cache the highest
+                var highestBox = 0;
+
+                // Select and loop the elements you want to equalise
+                $('.panel-body', this).each(function() {
+
+                    // If this box is higher than the cached highest then store it
+                    if ($(this).height() > highestBox) {
+                        highestBox = $(this).height();
+                    }
+
+                });
+
+                // Set the height of all those children to whichever was highest 
+                $('.panel-body', this).height(highestBox);
+
+            });
+
+        });
+    </script>
+
+    <script>
+        (function($) {
+            $(function() {
+
+                $('#newhire-sticky .sticky-handle').click(function(e) {
+                    $('#newhire-sticky').toggleClass('active');
+                });
+
+                // Preparing data before baking into slider
+                var $data_home_slider = homeUpdates;
+                $data_home_slider = $data_home_slider.slice(0, 3); // only get the first 3
+
+                var $i = 0;
+                $($data_home_slider).each(function() {
+                    var $this = $(this)[0];
+
+                    var $slider_title = $this.Title;
+                    $slider_title = $slider_title.replace('<big>', '<span class="big">');
+                    $slider_title = $slider_title.replace('</big>', '</span>');
+                    //$slider_title = $slider_title.replace('<br>', '<br class="wbr" />');
+                    $($data_home_slider)[$i].Title = $slider_title;
+                    $($data_home_slider)[$i].ID = $i + 1;
+
+                    if ($this.URL.indexOf("#popup-") == 0) {
+                        $($data_home_slider)[$i].ButtonClass = 'popup-link';
+                    }
+
+                    ++$i;
+                });
+
+
+                var t = Handlebars.compile($("#home-slider-template").html());
+                $('#home-slider').html(t($data_home_slider));
+
+                $('#home-slider').owlCarousel({
+                    loop: true,
+                    margin: 0,
+                    nav: true,
+                    navText: '',
+                    autoplay: true,
+                    autoplaySpeed: 800,
+                    autoplayHoverPause: true,
+                    dots: true,
+                    stagePadding: 0,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 1
+                        }
+                    }
+                });
+                $('.popup-link').magnificPopup({
+                    type: 'inline',
+                    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+                });
+                $('#archive-link-container').appendTo('.owl-controls');
+
+                var $data_home_news = breakingNews;
+
+                // Preparing data before baking into new slider
+                var $i = 0;
+                var $data_home_news_s = [];
+                $($data_home_news).each(function() {
+                    var $this = $(this)[0];
+                    var $news_title = $this.Title;
+                    var $news_title_short = $news_title;
+                    if (word_count($news_title_short) > 10) {
+                        $news_title_short = $news_title.split(/\s+/).slice(0, 7).join(" ");
+                        $news_title_short = $news_title_short + ' ...';
+                    }
+
+
+                    var $tags_class = '';
+                    if ($this.Tags) {
+                        var $tags = $.map($this.Tags.split(","), $.trim);
+                        $.each($tags, function(k, v) {
+                            $tags_class += ' ' + css_safe(v);
+                        });
+
+                    }
+
+
+
+                    var $news_preview_item = {
+                        ID: $i + 1,
+                        Tags_class: $tags_class,
+                        Title: $news_title_short,
+                        Link: $this.Link,
+                    };
+
+                    $data_home_news_s.push($news_preview_item);
+                    ++$i;
+                });
+
+                var tt = Handlebars.compile($("#home-news-slider-template").html());
+                $('#home-news-slider').html(tt($data_home_news_s));
+
+
+
+                var $home_news_slider = $('#home-news-slider');
+
+
+                $home_news_slider.on('initialized.owl.carousel', function(e) {
+                    check_if_breacking_news(e);
+                });
+                $home_news_slider.owlCarousel({
+                    loop: true,
+                    autoplay: true,
+                    autoplaySpeed: 1000,
+                    margin: 0,
+                    nav: false,
+                    dots: false,
+                    stagePadding: 0,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 1
+                        }
+                    },
+                    callbacks: true
+                });
+
+                $home_news_slider.on('translated.owl.carousel', function(e) {
+                    check_if_breacking_news(e);
+                });
+
+
+                function check_if_breacking_news(event) {
+
+                    if ($(event.target).find('.active .home-news-preview').hasClass('breaking-news')) {
+                        $('#home-news .attention').fadeIn();
+                    } else {
+                        $('#home-news .attention').fadeOut();
+                    }
+                }
+
+                var $newhire_sticky = $('#newhire-sticky');
+
+                var $newhire_sticky_closed = false;
+
+                $('#newhire-sticky-handle').click(function(e) {
+                    $newhire_sticky_closed = true;
+                    $('#newhire-action').collapse('hide');
+                });
+                /*
+                $(window).scroll(function() {
+                	if (!$newhire_sticky_closed) {
+                		if ($(window).scrollTop() > $('#home-news').offset().top - 200) {
+                			$newhire_sticky.removeClass('active');
+                		} else {
+                			$newhire_sticky.addClass('active');
+                		}
+                	}
+                });
+                */
+
+            });
+
+            $('body').on('click', '.collapse-title:not(".collapsed")', function() {
+                return false;
+            });
+
+
+        })(jQuery);
+    </script>
+	
+	<!-- Start SiteCatalyst code -->
+	<script language="JavaScript" src="https://www.oracleimg.com/us/assets/metrics/ora_beehive.js"></script>
+	<!-- End SiteCatalyst code -->
 
 </body></html>
