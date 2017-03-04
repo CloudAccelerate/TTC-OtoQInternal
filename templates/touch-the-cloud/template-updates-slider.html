@@ -1,0 +1,65 @@
+<!--
+
+Template: Update (Slider)
+
+-->
+
+<script>
+    var $i = 0;
+    lobSlider = lobSlider.slice(0, 3); // only get the first 3
+
+
+    $.each(lobSlider, function(i, v) {
+        lobSlider[i]['Image'] = $data_directory + 'Updates/' + v.Image;
+    });
+
+    var template = Handlebars.compile($("#updates-slider-template").html());
+    $('#updates-slider').html(template(lobSlider));
+    var $more_than_one = false;
+    if (Object.keys(lobSlider).length > 1) {
+        $more_than_one = true;
+    }
+
+    $('#updates-slider').owlCarousel({
+        loop: $more_than_one,
+        margin: 0,
+        nav: $more_than_one,
+        navText: '',
+        dots: $more_than_one,
+        autoplay: $more_than_one,
+        autoplaySpeed: 800,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        stagePadding: 0,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+</script>
+
+<script type="text/html" id="updates-slider-template">
+    {{#each .}}
+    <div class="item" style="background-image: url({{Image}});">
+        <div class="bg-mask"></div>
+        <div class="container">
+            <div class="w600">
+                <span class="lob-updates-title">{{{Title}}}</span>
+                <span class="lob-updates-excerpt">{{{Excerpt}}}</span>
+                
+                {{#if Link}}
+                <span class="lob-updates-readmore"><a class="btn btn-ghost" data-toggle="modal" data-target="{{Link}}" >{{BtnText}} <i class="fa fa-angle-right hover-right"></i></a></span>
+                {{/if}}
+                
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>

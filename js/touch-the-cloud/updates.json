@@ -1,0 +1,11 @@
+lobSlider = [
+    {
+    "Title":"Live for the Code",
+    "Excerpt":"Join us at Oracle Code 2017 where developers come to learn—and play.",
+    "Date":"",
+    "Image":"LiveForTheCode.png",
+    "Link":"#popup-slider1",
+    "BtnText":"Call To Action",
+    "Tags":""
+    }
+]

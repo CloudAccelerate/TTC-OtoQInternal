@@ -1,0 +1,144 @@
+<!--
+
+Template: Dashboard
+
+-->
+
+<script>
+    // Grab the value in JSON with "data-value"
+    var $dasboard_value;
+    $dasboard_value = window[$('#dashboard').data('value')];
+
+    // Preparing pretty object for the use of mustache template
+    var $dasboard_value_pretty = {};
+
+    // Get the Time
+    $dasboard_value_pretty.Time = $dasboard_value.Time;
+
+    // Get each Items Details
+    $dasboard_value_pretty.Items = [];
+    $.each($dasboard_value.Items, function(index, value) {
+
+        // Get the title
+        var $title = value.Title;
+
+        var $value = value.Value;
+
+        // Nail down the data type: number, target, split
+        var $metic_type;
+
+        // If only one value is provided
+        if ($value[1] === '') {
+            $metic_type = 'number';
+        } else {
+            if ($title.indexOf(' vs ') > 0) {
+                $metic_type = 'split';
+            } else if ($title.toLowerCase().indexOf(' over total ') > 0) {
+                $metic_type = 'outof';
+            } else {
+                $metic_type = 'target';
+            }
+        }
+
+        // Baking the HTML
+        var $item_html = '';
+        switch ($metic_type) {
+            case 'number':
+                $item_html += '<div id="metric-' + (index + 1) + '" class="metric metric-number">';
+                $item_html += '<div class="metric-value count">' + $value[0] + '</div>';
+                $item_html += '<div class="metric-title">' + $title + '</div>';
+                $item_html += '</div>';
+                break;
+            case 'target':
+                $item_html += '<div id="metric-' + (index + 1) + '" class="metric metric-target">';
+                $item_html += '<div class="metric-gauge" data-value="[&#34;' + $value[0] + '&#34;,&#34;' + $value[1] + '&#34;]" style="width:100%;height:105px;"></div>';
+                $item_html += '<div class="metric-val-label">' + $value[0] + '</div>';
+
+                if (is_percent($value[1])) {
+                    $item_html += '<div class="metric-min-max"><div class="metric-min">0</div><div class="metric-max">100</div></div>';
+                } else {
+                    $item_html += '<div class="metric-min-max"><div class="metric-min">0</div><div class="metric-max">' + parseInt($value[1]) + '</div></div>';
+                }
+
+                $item_html += '<div class="metric-title">' + $title;
+                if (is_percent($value[1])) {
+                    $item_html += '<small class="metric-target-span">Targeted at: ' + $value[1] + '</small>';
+                }
+                $item_html += '</div>';
+                $item_html += '</div>';
+                break;
+            case 'outof':
+                var $title_span = [];
+
+                $title_span[0] = $title.substring(0, $title.toLowerCase().indexOf(' over total '));
+                $title_span[1] = 'Total<br>' + $title.substring($title.toLowerCase().indexOf(' over total ') + 12);
+
+                $item_html += '<div id="metric-' + (index + 1) + '" class="metric metric-outof">';
+                $item_html += '<div class="metric-pie" data-title="[&#34;' + $title_span[0] + '&#34;,&#34;' + $title_span[1] + '&#34;]" data-value="[&#34;' + $value[0] + '&#34;,&#34;' + $value[1] + '&#34;]" style="width:100%;height:150px;"></div>';
+                $item_html += '</div>';
+                break;
+            case 'split':
+                $item_html += '<div id="metric-' + (index + 1) + '" class="metric metric-split">';
+
+                $item_html += '<div>';
+                $item_html += '<span id="data3_value1" class="score-text score-left">' + $value[0] + '</span>';
+                $item_html += '<span id="data3_value2" class="score-text score-right">' + $value[1] + '</span>';
+                $item_html += '</div>';
+
+                $item_html += '<table class="all-cap sbar appear">';
+                $item_html += '<tbody>';
+                $item_html += '<tr>';
+                $item_html += '<td class="score">';
+                $item_html += '<div class="score-left-container">';
+                $item_html += '<div class="score-left text-left" style="width: ' + $value[0] + ';">';
+                $item_html += '<div class="score-divider">';
+                $item_html += '</div>';
+                $item_html += '</div>';
+                $item_html += '</div>';
+                $item_html += '<div class="score-right-container">';
+                $item_html += '<div class="score-right text-right" style="width: ' + $value[1] + ';">';
+                $item_html += '<div class="score-divider">';
+                $item_html += '</div>';
+                $item_html += '</div>';
+                $item_html += '</div>';
+                $item_html += '</td>';
+                $item_html += '</tr>';
+                $item_html += '</tbody>';
+                $item_html += '</table>';
+
+                var $title_split = $title.split('vs');
+
+                $item_html += '<div>';
+                $item_html += '<span id="data3_name1" class="score-label score-left">' + $.trim($title_split[0]) + '</span>';
+                $item_html += '<span id="data3_name2" class="score-label score-right">' + $.trim($title_split[1]) + '</span>';
+                $item_html += '</div>';
+
+                $item_html += '</div>';
+                break;
+        }
+
+        $dasboard_value_pretty.Items.push({
+            ItemDetails: $item_html
+        });
+    });
+
+    var template = Handlebars.compile($("#dashboard-template").html());
+
+    $('#dashboard').html(template($dasboard_value_pretty));
+</script>
+
+<script id="dashboard-template" type="text/html">
+    <div id="fa-dashboard-bg"></div>
+    <div class="container">
+        <div id="fa-dashboard-row" class="row">
+            <div class="col-sm-3">
+                <h3 id="fa-dashboard-title">Dashboard<br><small><span class="badge">{{{Time}}}</span> YTD</small></h3>
+            </div>
+            {{#Items}}
+            <div class="col-sm-3">
+                {{{ItemDetails}}}
+            </div>
+            {{/Items}}
+        </div>
+    </div>
+</script>

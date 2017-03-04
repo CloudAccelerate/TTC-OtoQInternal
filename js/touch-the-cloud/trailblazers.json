@@ -1,0 +1,18 @@
+trailblazers = [
+
+{
+"Name":"<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:336811311959241' target='blank'>Vijay Pawar</a>",
+"Position":"Master Principle Cloud Platform Specialst",
+"Image":"vijay-pawar.png",
+},
+{
+"Name":"<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:546681746277753' target='blank'>Geries AbouAyash</a>",
+"Position":"Sales Consulting Senior Director",
+"Image":"geries-abouAyash.png",
+},
+{
+"Name":"<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:727330412500074' target='blank'>Cam Crockett</a>",
+"Position":"Senior Cloud Platform Specialst",
+"Image":"cam-crockett.png",
+}
+]

@@ -1,0 +1,142 @@
+<!--
+Template: template-carousel
+-->
+
+<script id="carousel-template" type="text/html">
+
+    <!-- #kad-story-section --->
+    <div id="kad-story-section" class="section section-alt">
+        <div id="kad-story-section-wrapper"></div>
+        <div class="container">
+            <h2> NAS Technology</h2>
+
+            <br>
+        </div>
+        <div id="kad-stories-container" class="container">
+            <div id="kad-stories" class="o-videos-carousel">
+
+                <!-- Otube Content will be displayed here -->
+                
+            </div>
+        </div>
+        <!--
+			<div class="hidden-nav">
+				<div class="prev"></div>
+				<div class="next"></div>
+			</div>
+            -->
+    </div>
+    <!-- /#kad-story-section --->
+
+    <script>
+        // Pull json data for outube Videos
+        var jsonUrl = 'js/fa-iaas/pulvids.json';
+
+        $.getJSON(jsonUrl, function(data) {
+
+            console.log('loaded');
+
+            var videoHtml = '';
+
+            $.each(data.results, function(key, val) {
+
+                videoHtml += '<div id="kad-story" class="item">';
+                videoHtml += '<div class="kad-avatar"><img class="img-responsive" src="' + val.videoImg + '" alt=""></div>';
+                videoHtml += '<div class="kad-intro">';
+                videoHtml += '<h3><strong>' + val.videoTitle + '</strong></h3><p class="text-muted">' + val.videoShort + '</p>';
+                videoHtml += '</div>';
+                videoHtml += '<div class="kad-intro-content">';
+                videoHtml += '<span class="pull-right mt-50 mr20 db"></span><p>' + val.videoDesc + '</p>';
+                videoHtml += '<p class="readmore"><a href="' + val.videoUrl + '" class="hover" target="_blank">Play Video <i class="fa fa-angle-right hover-right"></i></a></p>';
+                videoHtml += '</div>';
+                videoHtml += '</div>';
+
+            });
+
+            videoHtml += '';
+
+
+
+            $('#kad-stories').html(videoHtml);
+
+
+            //================= This is the Owl Carousel script vor the video section above the footer===========
+            var owl = $('.o-videos-carousel');
+
+            owl.owlCarousel({
+                loop: false,
+                autoplay: false,
+                dotsEach: false,
+                margin: 20,
+                nav: true,
+                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                responsive: {
+                    0: {
+                        items: 1,
+                        slideBy: 1,
+                        dotsEach: 1,
+                        autoWidth: false,
+                    },
+                    600: {
+                        items: 3,
+                        dotsEach: 1,
+                        slideBy: 1,
+                    },
+                    1000: {
+                        items: 3,
+                        slideBy: 2,
+                        dotsEach: 2,
+                    },
+                    1400: {
+                        items: 3
+                    }
+                }
+            });
+
+            owl.on('mouseenter', '.owl-item', function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+                var $this = $(this);
+
+                var $screen_width = $(window).width();
+
+                if ($this.find('.item').attr('id') === 'kad-story-4') {
+                    owl.trigger('to.owl.carousel', [1, 800]);
+                }
+
+                if ($this.find('.item').attr('id') === 'kad-story-3' && !$this.hasClass('active')) {
+                    owl.trigger('to.owl.carousel', [0, 800]);
+                } else if ($this.hasClass('centered')) {
+                    kad_slide_close();
+                } else {
+                    $('.owl-item.centered').removeClass('centered');
+                    $this.addClass('centered');
+
+                    owl.addClass('open');
+                    $this.find('.kad-intro-content').addClass('reveal');
+                }
+            });
+
+            owl.on('click', '.owl-item.centered', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                var $this = $(this);
+
+                var getUrl = $this.find('.readmore a').attr('href');
+                
+                window.open(getUrl, '_blank');
+            });
+
+            owl.on('mouseleave', '.owl-item', function(e) {
+                kad_slide_close();
+            });
+
+
+            function kad_slide_close() {
+                owl.removeClass('open');
+                owl.find('.kad-intro-content').removeClass('reveal');
+                owl.find('.centered').removeClass('centered');
+            }
+
+        }); // End Json
+    </script>

@@ -1,0 +1,914 @@
+srjson = {
+	"Essential Links & How-To Guides": {
+		"Sub Category": {
+			"Essential Links": {
+				"<i class='fa fa-female'></i> Internal People Search (ARIA)": {
+					"Description": "Search Oracle Profiles with up to date contact information.",
+					"Link": "https://people.us.oracle.com/pls/oracle/f?p=8000:1:14911690961251:::1"
+				},
+				"<i class='fa fa-cog'></i> Identity Self Service": {
+					"Description": "Request & reset access to essential internal tools ",
+					"Link": "https://oim.oraclecorp.com/identity/faces/home?_afrLoop=32017911013336&_afrWindowMode=0&_adf.ctrl-state=1dkmgewxor_117"
+				},
+				"<i class='fa fa-clipboard'></i> Self Service Apps": {
+					"Description": "Personal HR Information, Leave Application, Appraisals ",
+					"Link": "http://my.oracle.com/content/groups/public/@empl/@oal/documents/webcontent/cnt2547343.html"
+				},
+				"<i class='fa fa-fa fa-money'></i> Expense Reporting": {
+					"Description": "Claim & Review your expenses ",
+					"Link": "http://my.oracle.com/content/groups/public/@empl/@oal/documents/webcontent/cnt2547343.html"
+				},
+				"<i class='fa fa-laptop'></i> iProcurement": {
+					"Description": "Order Computers, Accessories, Mobile & Office Supplies ",
+					"Link": "http://my.oracle.com/content/groups/public/@empl/@oal/documents/webcontent/cnt2547343.html"
+				},
+				"<i class='fa fa-medkit'></i> Medical Benefits": {
+					"Description": "Claim Outpatient Medical Expenses",
+					"Link": "http://my.oracle.com/site/hr/RegionalSites/EMEARegion/EMEAHR/CompBenefits/index.htm",
+					
+				},
+				"<i class='fa fa-print'></i> EMEA Printers": {
+					"Description": "Connect to the right Printing resource. ",
+					"Link": "http://printers.oraclecorp.com/public/maps/EMEA_map.htm"
+				},
+				"<i class='fa fa-map-marker'></i> Countries in EMEA": {
+					"Description": "Connect to the right Printing resource. ",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/CST%20Communication/emea-portal/web/countries.html"
+				},
+				"<i class='fa fa-calendar'></i> Conference Room Resource": {
+					"Description": "View availability of conference rooms. ",
+					"Link": "https://stbeehive-apps.oraclecorp.com/RmLookup/CalendarApp.html"
+				},
+				"<i class='fa fa-users'></i> Beehive Conferencing": {
+					"Description": "Meet with customers and colleagues online ",
+					"Link": "https://stbeehive.oracle.com/bconf/"
+				},
+				"<i class='fa fa-wrench'></i> IT Service (My Help)": {
+					"Description": "Troubleshoot issues and request IT Support ",
+					"Link": "https://myhelp.oracle.com/app/home"
+				},
+				"<i class='fa fa-desktop'></i> My Desktop / Software Management": {
+					"Description": "Manage your PC Software & Request Licences ",
+					"Link": "http://mydesktop.oraclecorp.com/myd/profile_page.main"
+				},
+				"<i class='fa fa-wifi'></i> Guest Wifi Password": {
+					"Description": "Temporary Internet access for your Guests ",
+					"Link": "https://gmp.oracle.com/captcha/"
+				},
+				"<i class='fa fa-phone'></i> MyPhone Portal": {
+					"Description": "Manage your phone accounts ",
+					"Link": "http://my.oracle.com/site/git/2727/4693/22365/index.html"
+				},
+				"<i class='fa fa-mobile'></i> Order Mobile Devices": {
+					"Description": "Shop here for all Mobility Devices in your region ",
+					"Link": "https://global-ebusiness.oraclecorp.com/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&_ti=43165524&retainAM=N&addBreadCrumb=N&OASF=ICX_CAT_SHOP_HOME&OAHP=ICX_POR_HOMEPAGE_MENU&oapc=3&oas=6BThWHe52C2cwRMSJf8eJQ.."
+				},
+				"<i class='fa fa-headphones'></i> Vodafone End User Help Desk": {
+					"Description": "Self-service portal for corporate mobile (Vodafone) related queries and requests.",
+					"Link": "http://my.oracle.com/go/vodafonesupport"
+				},
+				"<i class='fa fa-money'></i> Monthly Payslip": {
+					"Description": "Retrieve latest Salary / Pay slip",
+					"Link": "http://my.oracle.com/site/fin/gfo/globalprocesses/globalpayroll/uk/cnt1885304.htm",
+				},
+				"<i class='fa fa-credit-card'></i> AMEX Corporate Card": {
+					"Description": "FAQs and Application guide.",
+					"Link": "http://my.oracle.com/site/fin/gfo/GlobalProcesses/GPTD/Card/index.htm"
+				},
+				"<i class='fa fa-file-text-o'></i> Employee Letter Request Tool": {
+					"Description": "Certificates and Letters.",
+					"Link": "https://apex.oraclecorp.com/pls/apex/f?p=367:2:105851930319173"
+				},
+				"<i class='fa fa-share-alt'></i> Oracle Social Network": {
+					"Description": "Connect with collegues.",
+					"Link": "https://osn-fusioncrm.oracle.com/osn/web"
+				},
+				"<i class='fa fa-newspaper-o'></i> Apps Reusable Assets": {
+					"Description": "Repository of recent articles, demo kit & etc.",
+					"Link": "http://appsassets.oraclecorp.com:8226/SCSRA/index?page=home"
+				},
+				"<i class='fa fa-mobile'></i> Oracle Mobile Apps": {
+					"Description": "Corporate and demo apps.",
+					"Link": "http://my.oracle.com/site/git/2727/4693/36316/index.html"
+				},
+				"<i class='fa fa-picture-o'></i> Brand Creative Assets": {
+					"Description": "Graphics, Images, Logos.",
+					"Link": "http://my.oracle.com/site/mktg/creative/creative"
+				},
+				"<i class='fa fa-files-o'></i> Oracle Presentation Template": {
+					"Description": "Latest 2016 release.",
+					"Link": "http://my.oracle.com/site/mktg/creative/Templates/PowerPoint/index.html"
+				},
+				"<i class='fa fa-life-ring'></i> My Oracle Support": {
+					"Description": "Search information and create discussion thread in the communities.",
+					"Link": "https://mosemp.us.oracle.com/"
+				},
+				"<i class='fa fa-cogs'></i> Beehive Settings": {
+					"Description": "Personal quota, voicemail, folder usage & other data.",
+					"Link": "https://tnt2.oraclecorp.com/webtools/UserStatus.jsp"
+				},
+				"<i class='fa fa-plane'></i> Travel Approval Portal": {
+					"Description": "Go",
+					"Link": "https://oltprac.oraclecorp.com/pls/apex/f?p=135:14:2220839090898:::::"
+				},
+				"<i class='fa fa-suitcase'></i> Travel Booking Portal": {
+					"Description": "Go",
+					"Link": "https://sso.carlsonwagonlit.com/login.do"
+					
+				},
+				"<i class='fa fa-book'></i> VISA Information": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/hr/working_worldwide/immigrationprogram/businessvisa/cnt406059.htm"
+					
+				},
+				"<i class='fa fa-link'></i> Create Short Internal URLs": {
+					"Description": "Convert lengthy URL to an compact link.",
+					"Link": "http://furl.oraclecorp.com/furl/index.html"
+				},
+				"<i class='fa fa-users'></i> HCM Cloud [Self Service Apps]": {
+					"Description": "Manage transactions for you and your team.",
+					"Link": "https://adit.oraclecorp.com/apex/f?p=166:10"
+				},
+				"<i class='fa fa-video-camera'></i> WebEx": {
+					"Description": "Virtual conference room, to start your meeting instanly without scheduling",
+					"Link": "https://myoracle.webex.com/mw3000/mywebex/default.do?siteurl=myoracle&service=1"
+				}
+			},
+			"How-To & Setup Guides": {
+				"Setup My iOS Device (iPhone / iPad)": {
+					"Description": "Configure Secure Email / Calendar to work with Oracle Systems.",
+					"Link": "https://myhelp.oracle.com/app/answers/answer_view/a_id/1003168"
+				},
+				"Setup My Android Device (Samsung / Nexus / LG / Sony etc..)": {
+					"Description": "Configure Secure Email / Calendar to work with Oracle Systems.",
+					"Link": "https://myhelp.oracle.com/app/answers/answer_view/a_id/1003165"
+				},
+				"Setup InterCall (Audio Conferencing)": {
+					"Description": "Request and Setup Intercall Audio<br>Conferencing.",
+					"Link": "http://my.oracle.com/content/web/cnt1696076"
+				},
+				"Setup Beehive Conferencing": {
+					"Description": "Request and Setup Beehive Online Conferencing Tool.",
+					"Link": "http://my.oracle.com/site/pdit/BusinessOpsIT/CollabAppsSvs/CustomerAdvocacy/Support/UserTrainingGuides/BeehiveUTG/Conference/OBCC/index.html"
+				},
+				"InterCall Access Numbers": {
+					"Description": "Res-Plus (Operator-Free).",
+					"Link": "http://my.oracle.com/site/git/2727/1565/index.html"
+				},
+				"Training Content for iPad": {
+					"Description": "Tips on how to effectively use your iPad during customer engagement.",
+					"Link": "https://mosemp.us.oracle.com/"
+				},
+				"Setup Video Conferencing on my Desktop": {
+					"Description": "Request Access and Use Cisco Jabber Video<br>Tool.",
+					"Link": "ftp://obiftp/gds_tools/GIT_Learning_Library/cisco_movi/index.htm"
+				},
+				"Request Collaboration Meeting Room (CMR) Account": {
+					"Description": "Go",
+					"Link": "https://iknow.oraclecorp.com/infocenter/index?page=content&id=HOWTO2976"
+				},
+				"Install Cisco Jabber Desktop": {
+					"Description": "Go",
+					"Link": "https://iknow.oraclecorp.com/infocenter/index?page=content&id=HOWTO2041"
+				},
+				"Use Video Conferencing Equipment": {
+					"Description": "Conference Room Video User Guide",
+					"Link": "http://my.oracle.com/site/git/cnt1624046.pdf"
+				},
+				"Contractor FAQs": {
+					"Description": "Setting up contractor",
+					"Link": "https://pdit-document-repository.oraclecorp.com/display/CSSOL/Contractor+FAQ"
+				},
+				"Setup My WebEx":{
+					"Description": "Support information and basic instructions to participate on WebEx",
+					"Link": "http://www.oracle.com/webfolder/dm/ogit/index.html"
+				}
+			}
+		}
+	},
+	"Sales Resources": {
+		"Sub Category": {
+			"Popular": {
+				"D-I-Y Powerpoint Graphics": {
+					"Description": "Use our professionally designed PowerPoint Graphics to create more impactful presentations.",
+					"Link": "http://my.oracle.com/site/mktg/creative/Templates/PowerPoint/index.html",
+					"Image": "img/sr/diy.jpg"
+				},
+				"EMEA Customer & Partner Success Stories": {
+					"Description": "Search through our success stories to find customers from a specific industry, or who experienced success with a specific Oracle product.",
+					"Link": "http://contentportal.oraclecorp.com/",
+					"Image": "img/sr/cr.jpg"
+					},
+				
+				"Thought Leadership Content": {
+					"Description": "Thought leadership content touching themes around Big Data, Cloud, Innovation and Transformation.",
+					"Link": "http://www.forbes.com/sites/oracle/",
+					"Image": "img/sr/tl.jpg"
+				},
+				"Sales & Marketing Content Portal": {
+					"Description": "Messaging & positioning for products & solutions.",
+					"Link": "http://contentportal.oraclecorp.com/index.html"
+				},
+				"Retriever: Sales Content Repository": {
+					"Description": "Field content encompassing the knowledge of sales.",
+					"Link": "http://retriever.us.oracle.com/apex/f?p=121:1:2239193463720059::::"
+				},
+				"Oracle Sales Cloud (FUSION CRM)": {
+					"Description": "Opportunity Management Tool.",
+					"Link": "https://crm-fusioncrm.oracle.com/sales/faces/CrmFusionHome"
+				},
+				"Oracle eSource": {
+					"Description": "Pricing, Licensing and Business Practices.",
+					"Link": "http://esource.oraclecorp.com/portal/pls/portal/esrc.esr_main.home?p_main_tab_id=1"
+				},
+				"Global Product Matrix": {
+					"Description": "Product eligibility based on role.",
+					"Link": "https://gicplanning.oraclecorp.com/pls/apex/f?p=145:1:3778286532851145"
+				},
+				"Deal Approval System": {
+					"Description": "Deal Management & Approval System.",
+					"Link": "https://global-deal.oraclecorp.com/"
+				},
+				"Upsell Wheel": {
+					"Description": "Up-Sell and Cross-Sell information on Solutions.",
+					"Link": "https://upsell-wheel.oraclecorp.com/apps/LandingPad.jsp"
+				},
+				"Upsell Wheel Demo": {
+					"Description": "Demonstration of how to use Upsell Wheel.",
+					"Link": "http://odsc.oraclecorp.com/upsell.html"
+				},
+				"Wins2Ref": {
+					"Description": "Internal References on Wins",
+					"Link": "https://fsn.oraclecorp.com/winref/faces/Welcome;jsessionid=MrcxNsP5EpG1QeHNCYY1cg50ACmFFcZQx6qLm0KqpVyZvLcnZMTj!-37608328?_adf.ctrl-state=zqff2xyum_4"
+				},
+				"ECA User Guide": {
+					"Description": "Monthly Commission statements.",
+					"Link": "http://my.oracle.com/content/web/CNT558674"
+				},
+				"Sales Credit Allocation Tool": {
+					"Description": "Credit allocation for Sales Orders.",
+					"Link": "https://global-apex.oraclecorp.com/apex/f?p=sca:sipage:200751708586845:::::"
+				},
+				"OracleDirect &quot;Sales Call On-Line&quot;": {
+					"Description": "This site is the Oracle Direct portal with latest updates and essential resources.",
+					"Link": "http://salescallonline.us.oracle.com/odinternal/"
+				},
+				"Cheat Sheet Repository": {
+					"Description": "Cheat sheets, PowerPoints, videos, success stories and Oracle offerings. ",
+					"Link": "https://apex.oraclecorp.com/pls/apex/f?p=17712:1:17405770459329"
+				},
+				"Lead Management to Post Booking Stage": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/gsc/gsco/Training/index.html"
+				},
+				"Sales Central": {
+					"Description": "Go",
+					"Link": "https://salescentral.oracle.com/"
+				},
+				"Sales Methodology Resources": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/gsc/gsco/SalesMethodology/index.html"
+				},
+				"Important Sales Announcements": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/gsc/gsco/communication/index.html"
+				},
+				"Sales Consulting One-Stop Portal": {
+					"Description": "One stop shop for SC's, with great deal of collateral to help drive deals to close.",
+					"Link": "www.solutionsanz.com"
+				},
+				"Credit Policy": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/GDMI/Public/REFE-P02.htm"
+				},
+				"Find a support rep": {
+					"Description": "Go",
+					"Link": "http://cbms-public.oraclecorp.com/pls/cbms_portupsp/CBMS_APSMD.cbms_search_$scr.show_screen"
+				},
+				"eSource": {
+					"Description": "Oracle's official website for Pricing, Licensing and Business Practices.",
+					"Link": "http://esource.oraclecorp.com/webdbprd-dad/webdb/esrc/esr_main.home?p_main_tab_id=2"
+				},
+				"Licensing Guide": {
+					"Description": "Flexible and transparent pricing and licensing policies.",
+					"Link": "http://www.oracle.com/us/corporate/pricing/sig-070616.pdf"
+				},
+				"Compensation Exception Request": {
+					"Description": "Tool to submit Compensation Exceptions.",
+					"Link": "https://gicplanning.oraclecorp.com/pls/apex/f?p=2372:1"
+				},
+				"SPIF Tool": {
+					"Description": "Go",
+					"Link": "https://compprod.us.oracle.com/pls/apex/f?p=110:1:1365726761260301:::::"
+				},
+				"Enterprise Compensation Application Overview": {
+					"Description": "Go",
+					"Link": "https://compprod.us.oracle.com/eca/ytd.jsp"
+				},
+				"Compensation Questions Alias": {
+					"Description": "Go",
+					"Link": "https://compprod.us.oracle.com/pls/apex/f?p=17932:1:392114378451801:::::"
+				},
+				"Compensation Wiki": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/compwiki/index.php/Main_Page"
+				},
+				"Sales Credit Allocation": {
+					"Description": "Go",
+					"Link": "https://global-apex.oraclecorp.com/apex/f?p=sca:home:103483654236912:::::"
+				},
+				"Terms and Conditions": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/gosc/GlobalSalesOps/GIC/Sales-Termsandconditions/index.html"
+				},
+				"Commission Statement": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT558674"
+				},
+				"Echosign": {
+					"Description": "Go",
+					"Link": "https://oracle.echosign.com/account/home"
+				},
+				"Q Tool": {
+					"Description": "Go",
+					"Link": "https://global-apex.oraclecorp.com/apex/f?p=12578:100:131521473174045:::::"
+				},
+				"WebQuote": {
+					"Description": "Go",
+					"Link": "https://global-apex.oraclecorp.com/apex/f?p=107:100"
+				},
+				"Sales Consultant Time Application": {
+					"Description": "Tracking and reporting activities.",
+					"Link": "https://apex-fusioncrm.oraclecorp.com/apex/f?p=112:1:10313672140840::NO:::"
+				},
+				"Global Sales Engineering": {
+					"Description": "Access to the Demo Store.",
+					"Link": "https://demo.oracle.com/"
+				},
+				"Value Navigator": {
+					"Description": "Identify the value add for prospective clients.",
+					"Link": "https://vn.oraclecorp.com"
+				},
+				"Oracle Social Tools & Processes": {
+					"Description": "Utilize the social tools and processes.",
+					"Link": "http://globaldc.oracle.com/perl/twiki/view/SNBCSocialGuide/ToolsSec"
+				},
+				"Marketing Video Content": {
+					"Description": "Repository for Oracle marketing videos.",
+					"Link": "http://medianetwork.oracle.com/media/"
+				},
+				"Sales Intelligence Portal": {
+					"Description": "Go",
+					"Link": "https://si.oraclecorp.com"
+				},
+				"Oracle Partner Network Portal": {
+					"Description": "Engage with Oracle and other partners.",
+					"Link": "https://community.oracle.com/community/opncloudconnection"
+				}
+			},
+			"Customers References": {
+				"Oracle Cloud Customers Big Book": {
+					"Description": "Lists all Oracles Cloud customers worldwide and outlines the services they have purchased.",
+					"Link": "https://apex.oraclecorp.com/pls/apex/f?p=14004:100:1762285890294::NO"
+				},
+				"Oracle Customer Success Stories": {
+					"Description": "Comprehensive list of Customer success stories around the world across all product groups.",
+					"Link": "http://www.oracle.com/us/corporate/customers/overview/index.html"
+				},
+				"SaaS Success Portal": {
+					"Description": "Various resources which demonstrate Oracle's SaaS Success within the industry.",
+					"Link": "http://saassuccess.oraclecorp.com"
+				},
+				"Wins2Ref": {
+					"Description": "This portal allows you to request win stories to be created.",
+					"Link": "https://fsn.oraclecorp.com/winref/faces/WinCreate"
+				},
+				"Oracle Customer Programs - Workbench": {
+					"Description": "View customer references as well as request new references to be completed.",
+					"Link": "https://login.oracle.com/mysso/signon.jsp"
+				}
+			},
+			"Demand Gen. & Business Dev.": {
+				"Global Demand Generation Portal": {
+					"Description": "Resource for all Marketing Campaign assets.",
+					"Link": "https://globaldgp.oraclecorp.com/GDGP/Campaign/index.html?CampaignCatId=15&CampaignId=110"
+				},
+				"Partner Marketing": {
+					"Description": "Marketing kit resources for the partner network.",
+					"Link": "http://www.oracle.com/partners/en/partner-with-oracle/market-and-sell/marketing-kits/oracle-hcm-cloud/secure/index.html"
+				},
+				"Cheat Sheets": {
+					"Description": "Cheat Sheet repository for all products.",
+					"Link": "https://apex.oraclecorp.com/pls/apex/f?p=17712:1:115653682727207::NO"
+				},
+				"Oracle Persona Central": {
+					"Description": "Different personas for the types of people we prospect.",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/Persona%20Central/Public%20Documents/Archive/Persona.html"
+				}
+			}
+		}
+	},
+	"Business Operations": {
+		"Sub Category": {
+			"General<span class='hidden'>business</span>": {
+				"Legal Name Change, Data Correction or Assignment": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/GDMI/Public/REFA0101.htm"
+				},
+				"Counter Signature Local Exceptions": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/Cloud_-_Oracle_CounterSignature_Local_Exceptions"
+				},
+				"Master Agreement Policy": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/NEW_PRACTICES/GENERAL/MASTER%20AGREEMENT%20POLICY.PDF"
+				},
+				"Partner & Cloud Deals FAQs - Cloud Quoting & Contracting": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/Partner_FAQs_-_Cloud_Quoting_%26_Contracting"
+				},
+				"AMER Unprotected Contracting Process": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/AMER_Unprotected_Word_Document_Contracting_Process"
+				},
+				"Deal Management Document Control Policy": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT2250489"
+				},
+				"Release Approval Guidance": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/cnt2253180"
+				},
+				"Customer Change Request Best Practices": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT2359947"
+				},
+				"Customer Change Request Process": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT2359946"
+				},
+				"Customer Legal Name Change": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/My_customer_only_requires_a_Legal_Name_Change._Who_should_I_contact%3F"
+				},
+				"Customer-Facing Customer Issue Tracker (\"CIT\")": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT2359948"
+				},
+				"Global Finance Operations Site (Deal Management)": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/fin/gfo/GlobalProcesses/GlobalFinanceOps/DealManagement/index.html"
+				},
+				"Global Sales Ops Site": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/gsc/gsco/index.html"
+				},
+				"License Assignment and Name Change Process": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/LICENSING/ASSIGNMENTS/ASSIGNMENTPOLICY.HTM"
+				},
+				"Revenue Recognition Wiki": {
+					"Description": "Cloud FAQs and guidance for review of > $5MIL deals",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/Revenue_Recognition_-_Cloud_FAQs"
+				},
+				"Contracts Wiki": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/Main_Page"
+				},
+				"Credit and Collections": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/fin/gfo/GlobalProcesses/O2C/Credit/index.html"
+				},
+				"CSA Sales Guide": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/CONTRACTS_OPTIONS/OLA/CSA/CSA_SALES_GUIDE.PDF"
+				},
+				"CSA Standard Option Language": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/pls/portal/esrc.esr_portlet.show?id=79,90,148200"
+				},
+				"Managed Deals & Customer Issue Tracker": {
+					"Description": "For use with Legal.",
+					"Link": "http://my.oracle.com/site/fin/gfo/GlobalProcesses/GlobalFinanceOps/DealManagement/DealManagerResources/index.html"
+				},
+				"Contracts Repository": {
+					"Description": "Go",
+					"Link": "https://global-apex.oraclecorp.com/apex/f?p=407:1:209429585710535:::::"
+				},
+				"DELTA": {
+					"Description": "Go",
+					"Link": "https://globalcontracts.oraclecorp.com/pls/apex_hlcs/f?p=154:1:15770281507106:::::"
+				},
+				"DELTA Set-up": {
+					"Description": "Go",
+					"Link": "https://globalcontracts.oraclecorp.com/pls/apex_hlcs/f?p=154:1:10251275922125:::::"
+				}
+			},
+			"Approvals, Booking and Ordering": {
+				"Consulting Approval Matrix": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/APPROVALS/APP_CONSULTING/BP_CONSAPPROVALMATRIX.PDF"
+				},
+				"DAS Information Site": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/fin/gfo/GlobalProcesses/GlobalFinanceOps/DealManagement/DealApprovalSystem/index.html"
+				},
+				"DAS Quick Reference Guide for CDM": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT1833420"
+				},
+				"DAS Quick Reference Guide for Sales": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT1847167"
+				},
+				"Global Approval Matrix": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/APPROVALS/APP_LICENSE/BP_APPROVAL_MATRIX.PDF"
+				},
+				"Booking Package Requirements": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT1766567"
+				},
+				"Booking Process Flow Chart": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT1766567"
+				},
+				"Million Dollar Deal Letter": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/REVENUE/REVENUE_RECOGNITION/SALESREPRESENTATIONS.HTM"
+				},
+				"POEF Policy": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/GDMI/Public/REFG-P05.htm"
+				},
+				"Purchase Order Validation Process": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT2237703"
+				}
+			}
+		}
+	},
+	"Cloud Operations": {
+		"Sub Category": {
+			"General<span class='hidden'>cloud</span>": {
+				"Cloud Product Marketing Portal": {
+					"Description": "Sales and marketing material to help you position the Oracle products.",
+					"Link": "https://www.oracle.com/search/customers/browse/_/N-1z13e6y"
+				},
+				"Oracle Cloud Portal": {
+					"Description": "Customer facing site that presents the cloud solutions that Oracle has.",
+					"Link": "https://cloud.oracle.com/home"
+				},
+				"CDM Managed Deals": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/Cloud_Deal_Management_Managed_Deals"
+				},
+				"CDM to Sales Mapping": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/content/web/CNT2140184"
+				},
+				"Cloud Deal Management Site": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/fin/gfo/GlobalProcesses/GlobalFinanceOps/DealManagement/CloudGlobalOperations/index.html"
+				},
+				"Cloud Legal Work Allocation": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/legal/cnt726439.doc"
+				},
+				"Cloud Sales Global Support (email)": {
+					"Description": "Go",
+					"Link": "mailto:clous-support_ww@oracle.com"
+				},
+				"Cloud Ops": {
+					"Description": "This portal is designed to provide transparency into Oracle Cloud Operations.",
+					"Link": "https://confluence.oraclecorp.com/confluence/display/COPMP/Cloud+Ops+Strategy+Portal"
+				},
+				"Cloud Operations Enablement Portal": {
+					"Description": "Details on how Oracle Cloud Operations Provision, secure, maintain and decommission Oracle Cloud Services.",
+					"Link": "https://confluence.oraclecorp.com/confluence/display/SALESENABLE/Cloud+Ops+Sales+Enablement+Portal"
+				},
+				"Cloud Ops Knowledgebase": {
+					"Description": "Resources associated to outlining Oracle Cloud Operations standards and policies.",
+					"Link": "https://cloudops-knowledgebase.custhelp.com/ "
+				},
+				"Cloud Ops RFP Support": {
+					"Description": "Oracle Cloud Ops RFP/RFI Support page.",
+					"Link": "https://stbeehive.oracle.com/teamcollab/wiki/Oracle+Cloud+Operations+Product+Management:Oracle+Cloud+Ops+RFP+and+RFI+Support"
+				},
+				"Cloud ETR Policy": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/NEW_PRACTICES/BUSINESS_ONLINE282/CLOUD_ETR_POLICY.PDF"
+				},
+				"Cloud to Cloud Migrations Process": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/GDMI/Public/PROAD008.htm"
+				},
+				"Cloud Approval Matrix": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/APPROVALS/APP_LICENSE/ORACLE%20CLOUD%20APPROVAL%20MATRIX.PDF"
+				}
+			},
+			"Cloud Contracting": {
+				"CDM Companion": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/teamcollab/library/st/Cloud+Deal+Management+-+Process+Documents/Documents"
+				},
+				"Cloud Order Document - Standard Option Language": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/CONTRACTS_OPTIONS/OPTIONS/OP_ONLINESRVS/CLOUD_OD_OPTIONS.PDF"
+				},
+				"Cloud Practices Playbook": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/POLICIES_APPROVALS/NEW_PRACTICES/BUSINESS_ONLINE282/CLOUD%20GLOBAL%20PRACTICES%20PLAYBOOK.PDF"
+				},
+				"Cloud Resource Center": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/fin/gfo/cnt1809210.htm"
+				},
+				"Cloud Sales Resource Center": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/nasc/Sales/Operations/CloudQ2F/index.html"
+				},
+				"M&A Integration Websites": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/mktg/gic/IntegratedWebsites/index.htm"
+				}
+			},
+			"Cloud Hosting & Delivery Policies": {
+				"Cloud DPA Sales Guide": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/CONTRACTS_OPTIONS/OLA/CSA/CLOUD_DPA_SALES_GUIDE.PDF"
+				},
+				"Data Processing Agreement": {
+					"Description": "Go",
+					"Link": "http://www.oracle.com/us/corporate/contracts/cloud-dpa-2079839.pdf"
+				},
+				"Cloud Enterprise Hosting and Delivery Policy": {
+					"Description": "Go",
+					"Link": "http://www.oracle.com/us/corporate/contracts/cloud-ent-hosting-del-policies-1881438.pdf"
+				},
+				"Cloud for Industry Hosting & Delivery Policy": {
+					"Description": "Go",
+					"Link": "http://www.oracle.com/us/corporate/contracts/cloud-ind-hosting-delivery-policies-1902876.pdf"
+				},
+				"Cloud Hosting Delivery Policies": {
+					"Description": "This document contains the Oracle Cloud Hosting and Delivery Policies.",
+					"Link": "http://www.oracle.com/us/corporate/contracts/cloud-hosting-delivery-policies-1881437.pdf"
+				},
+				"Platform and Infrastructure Services – Public Cloud Hosting and Delivery Policies": {
+					"Description": "Go",
+					"Link": "http://www.oracle.com/us/corporate/contracts/cloud-platform-inf-hosting-delivery-2206160.pdf"
+				}
+			},
+			"Customer 2 Cloud": {
+				"CLAM: On-Premise/Hybrid to Cloud Shelving and Termination": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/GDMI/Public/PROAC118.htm"
+				},
+				"Cloud Hybrids": {
+					"Description": "Go",
+					"Link": "https://mediawiki.us.oracle.com/contractswiki/index.php/Cloud_Hybrids"
+				},
+				"Customer 2 Cloud Policy for Moving Customers from On-Premise Licenses to Oracle Cloud Services": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/MIGRATION/MPP/INTO%20THE%20CLOUD.HTML"
+				},
+				"Mapping for CRM On Demand to Fusion CRM Cloud Service": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/pls/portal/esrc.esr_portlet.show?id=75,19,128481"
+				},
+				"On-Premise to Cloud Service Mappings": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/pls/portal/esrc.esr_portlet.show?id=75,18,115077"
+				},
+				"Sales Process for Moving Customers from CRM On Demand to Fusion Cloud": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/pls/portal/esrc.esr_portlet.show?id=75,19,132399"
+				}
+			}
+		}
+	},
+	"Product Specific Content": {
+		"Sub Category": {
+			"General<span class='hidden'>product</span>": {
+				"Controlled Availability": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/PRICE/PRICING_ENGINE/CONTROLLED%20AVAILABILITY/CA_QUESTIONS.HTM"
+				},
+				"BPS Community Website": {
+					"Description": "Go",
+					"Link": "http://webcenter.us.oracle.com/webcenter/faces/oracle/webcenter/page/scopedMD/s727fc000_3385_4528_a4e1_83f2b926ba3e/Page40.jspx?_adf.ctrl-state=123nn4lc5u_142&_afrLoop=3362812305745063#!%40%40%3F_afrLoop%3D3362812305745063%26_adf.ctrl-state%3Dpcvj92vzt_4"
+				},
+				"BPS FAQs": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/PRICE/BPO/BPO%20PRICING%20FAQ%2010-13-06.PDF"
+				},
+				"BPS GLobal Price List": {
+					"Description": "Go",
+					"Link": "http://esource.oraclecorp.com/portal/page/portal/ROOTFOLDER/PRICE/BPO/PRICE_LIST/BPO%20GLOBAL%20PRICE%20LIST.PDF"
+				},
+				"BPS Provider Profiles": {
+					"Description": "Go",
+					"Link": "http://www.oracle.com/us/products/applications/051195.html"
+				}
+			},
+			"CX": {
+				"EMEA CX Communities": {
+					"Description": "This site provides a comprehensive list of CX communities on Oracle Social Network.",
+					"Link": "https://osn-fusioncrm.oracle.com/osn/web/#ExtensionPlace:id=32618334&m=RELATED_CONVERSATIONS&eid=10111"
+				},
+				"Oracle CX Content Sales": {
+					"Description": "Oracle CX content sets provide content to sell the various CX pillars.",
+					"Link": "https://salescentral.oracle.com/OracleDocCloudMeta/SalesCentral/public.html?701#/pages/314"
+				},
+				
+				"CX Blog": {
+					"Description": "Provides updates and content for CX.",
+					"Link": "http://news.oraclecorp.com/emeaapplicationsblog/category/cx/"
+				},
+				
+			},
+			"EPM/BI": {
+				"Wizards List": {
+					"Link": {
+						"Link 1": "helpbi_ee_us@oracle.com",
+						"Link 2": "epm_demos_ww_grp@oracle.com",
+						"Link 3": "dss-bi_ww_grp@oracle.com",
+						"Link 4": "dss-epm_ww_grp@oracle.com"
+					}
+				},
+				"EMEA Big Data Portal": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/EMEA-Tech-Systems/emea-bigdata/index.html"
+				},
+				"Rittman Mead Magazine": {
+					"Description": "Go",
+					"Link": "http://www.rittmanmead.com/articles/"
+				},
+				"Business Analytics News": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/emeasc/Solutions/BI/index.htm"
+				},
+				"Oracle BI Portal": {
+					"Description": "Go",
+					"Link": "my.oracle.com/site/pd/fmw/products/bi/index.html"
+				},
+				"Oracle BIEE Portal": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/content/dav/st/DSS%20Technology%20Demo%20Shared/Public%20Documents/dss/tech/obi/obiee.html"
+				},
+				"Endeca": {
+					"Link": {
+						"Endeca Portal": "http://my.oracle.com/site/ibu/portal/BI/endeca/index.html",
+						"Global OEID Workspace": "https://stbeehive.oracle.com/teamcollab/wiki/Endeca+Information+Discovery+%28EID%29"
+					}
+				},
+				"Exalytics": {
+					"Description": "Exalytics Portal",
+					"Link": "my.oracle.com/site/pd/fmw/products/bi/exalytics/index.html"
+				},
+				"Institute for Information Management": {
+					"Description": "Go",
+					"Link": "http://iim.org.au"
+				}
+			},
+			"HCM": {
+				"HCM Cloud Customer Adoption Strategy": {
+					"Description": "Customers lists who have implemented Oracle HCM Cloud/Fusion.",
+					"Link": "https://confluence.oraclecorp.com/confluence/display/OHCCAS/Oracle+HCM+Cloud+Customer+Adoption+Strategy"
+				},
+				"NAA HCM Database": {
+					"Description": "Go",
+					"Link": "https://apex.oraclecorp.com/pls/apex/f?p=10971:1:113378714302864:::::"
+				},
+				"HCM Competitive Intelligence": {
+					"Description": "Go",
+					"Link": "http://blog.us.oracle.com/hcm-ci/?97583034"
+				},
+				"HCM Release Readiness": {
+					"Description": "Go",
+					"Link": "https://cloud.oracle.com/saasreadiness/hcm"
+				},
+				"Sales Central HCM": {
+					"Description": "Go",
+					"Link": "https://salescentral.oracle.com/OracleDocCloudMeta/SalesCentral/public.html?361#/pages/361"
+				},
+				"Subject Area Documentation": {
+					"Description": "Go",
+					"Link": "http://www.oracle.com/technetwork/documentation/otbi-hcm-2225528.html"
+				},
+				"Customer Success: HCM": {
+					"Description": "Go",
+					"Link": "https://www.oracle.com/search/customers/browse/_/N-1z13yr7Z1z12l4i"
+				},
+				"Taleo Chatter": {
+					"Description": "Go",
+					"Link": "https://stbeehive.oracle.com/teamcollab/wiki/Fusion+HCM+Wizard+%26+Chatter+Content"
+				},
+				"Repository for Fusion Apps": {
+					"Description": "Go",
+					"Link": "https://fusionappsoer.oracle.com/oer/index.jsp?action=Login%20as%20Guest&newRequest=false"
+				}
+			},
+			"Marketing Cloud": {
+				"Topliners Online Community": {
+					"Description": "Go",
+					"Link": "http://topliners.eloqua.com/welcome"
+				}
+			},
+			"MW": {
+				"Fusion MW (BI) Product Portal": {
+					"Description": "This is a product portal to outline all the Fusion Middleware Product.",
+					"Link": "http://my.oracle.com/site/pd/fmw/products/ba/index.html"
+				}
+			},
+			"Sales & Services Cloud": {
+				"CRM On Demand Overview": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/ibu/abu/CRM2/ProductLines/OracleCRMOnDemand/Overview/index.html"
+				},
+				"CRM On Demand - SaaS Ops": {
+					"Description": "Go",
+					"Link": "http://my.oracle.com/site/ibu/abu/CRM2/SaaSProcedures/index.html"
+				},
+				"CRM On Demand - SaaS Documentation": {
+					"Description": "Go",
+					"Link": "https://mosemp.us.oracle.com/epmos/faces/DocumentDisplay?adf.ctrl-state=z1xfe%29rxd_4&_afrLoop=516970187858491&id=870963.5&_afrWindowMode=0&_adf.ctrl-state=1caw2qvsou_4"
+				},
+				"Sales Cloud Wizards List": {
+					"Description": "Go",
+					"Link": "fusioncrm-scwizards_ww_grp "
+				},
+				"Service Cloud Knowledge Base": {
+					"Description": "Access to the Service Cloud knowledge base and customer portal development guide.",
+					"Link": "https://cx.rightnow.com"
+				},
+				"Service Cloud Enablement Portal": {
+					"Description": "Go",
+					"Link": "https://sc-enablement.custhelp.com/app/home"
+				},
+				"Service Cloud Data Sheets": {
+					"Description": "Go",
+					"Link": "https://cloud.oracle.com/service?lmResID=1383678923514&tabID=1383678932379"
+				},
+				"OSN Conversation for Service Cloud": {
+					"Description": "Go",
+					"Link": "https://osn-fusioncrm.oracle.com/osn/web/#conversation:id=6881288&m=NOT_SET"
+				}
+			},
+			"Social": {
+				"Social Documentation": {
+					"Description": "Go",
+					"Link": "http://docs.oracle.com/cloud/social/index.htm"
+				},
+				"Social Blog": {
+					"Description": "Go",
+					"Link": "http://news.oraclecorp.com/srm/"
+				},
+				"SRM Wizards": {
+					"Description": "Go",
+					"Link": "srm-scwizards_ww_grp"
+				}
+			}
+		}
+	},
+	"Market/Industry Analysis": {
+		"Sub Category": {
+			"Market/Industry Analysis": {
+				"IDC Reports": {
+					"Description": "All reports that Oracle subscribe to with many of SaaS/BI reports.",
+					"Link": "http://globaldc.oracle.com/perl/twiki/view/AnalystRelations/ResearchSubscriptions#IDC%20-%20Site/Research%20Registration"
+				},
+				"Red Book Online": {
+					"Description": "Market share and forecasts for country/regional Apps and EPM/BI information.",
+					"Link": "https://apex.oraclecorp.com/pls/apex/f?p=18646:1:"
+				},
+				
+				"Product Development Blog": {
+					"Description": "The latest data on customer wins and go lives and the market's positive reaction to our Apps.",
+					"Link": "https://community.oracle.com/login.jspa?referer=https://community.oracle.com/community/technology_network_community/analyst-relations"
+				},
+				"Analyst Relations Portal": {
+					"Description": "Database of Analyst reports posted about Oracle and useful for customer engagements.",
+					"Link": "https://community.oracle.com/community/technology_network_community/analyst-relations"
+				},
+				"Oracle Blogs": {
+					"Description": "The Oracle Blogging community where you can search all blog posts.",
+					"Link": "https://blogs.oracle.com/"
+				},
+				"Oracle Insight": {
+					"Description": "Get Insight into your customer's most critical business challenges.",
+					"Link": "http://my.oracle.com/site/ibu/insight/index.htm"
+				},
+				"Competitive Intelligence Portal": {
+					"Description": "Identify the key competitors in the market and their strengths and weaknesses.",
+					"Link": "http://my.oracle.com/site/ibu/portal/CIPortalHome/Overall/index.html "
+				},
+				"Industry Solutions Portal": {
+					"Description": "Public site that presents our product portfolio for large industry specific sectors.",
+					"Link": "https://industrysolutions.oracle.com/ISA/faces/isaHome?_afrLoop=38362003434662819&_afrWindowMode=0&_adf.ctrl-state=mj7ba0mo8_60 "
+				}
+			}
+		}
+	}
+}

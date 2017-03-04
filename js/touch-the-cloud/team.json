@@ -1,0 +1,48 @@
+teamData={
+"lobTitle":"Touch The Cloud",
+"updated":"",
+"msgTitle":"",
+"message":"",
+"lobOwner":{
+"Name":"Geries AbouAyash",
+"Email":"geries.abouayash@oracle.com",
+"Image":"geries-abouayash.png",
+"Role":"Sales Consulting Sr Director",
+"AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:114976027929201::NO::PERSON_ID:546681746277753"
+},
+"DivisionalChampions":[ 
+    {
+    "Name":"",
+    "Email":"",
+    "Image":"",
+    "Role":"",
+    "Region":"",
+    "Country":"",
+    "AriaProfile":""
+    }
+],
+"RegionalChampions":[
+    {
+    "Name":"Cam Crockett",
+    "Email":"cam.crockett@oracle.com",
+    "Image":"cam-crockett.png",
+    "Role":"Senior Cloud Platform Specialist",
+    "Region":"Canada",
+    "Country":"Canada",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:727330412500074"
+    }
+
+],
+"TopInfluencers":[
+
+    {
+    "Name":"Vijay Pawar",
+    "Email":"vijay.pawar@oracle.com",
+    "Image":"vijay-pawar.png",
+    "Role":"Master Principle Cloud Platform Specialist",
+    "Region":"NA",
+    "Country":"NA",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:336811311959241"
+    }    
+]
+}

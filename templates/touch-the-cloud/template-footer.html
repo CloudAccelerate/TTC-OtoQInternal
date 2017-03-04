@@ -1,0 +1,178 @@
+
+<!--
+
+Template: Footer
+
+-->
+
+<script type="text/javascript" src="js/touch-the-cloud/events.json"></script>
+<script type="text/javascript" src="js/touch-the-cloud/trailblazers.json"></script>
+<script type="text/javascript" src="js/sr.json"></script>
+
+<script>
+	var template = Handlebars.compile($("#template-footer").html());
+	$('#footer').html(template());
+
+
+	var monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+	if (typeof events !== 'undefined') {
+		$.each(events, function(data_k, data_v) {
+			var d = new Date(data_v.Date);
+			events[data_k]["Day"] = ("0" + d.getDate()).slice(-2);
+			events[data_k]["Month"] = [monthNames[d.getMonth()]];
+		});
+
+		var template = Handlebars.compile($("#template-listings-event").html());
+		$('#listings-event').html(template(events));
+	}
+	if (typeof trailblazers !== 'undefined') {
+		var template = Handlebars.compile($("#template-listings-trailblazers").html());
+		$('#listings-trailblazers').html(template(trailblazers));
+
+	}
+
+	var $live_search_jig = {};
+	var $live_search_feed = [];
+	var $hidden_search = {};
+
+
+	$.each(srjson, function($data_k, $data_v) {
+
+		var $data_subcat = $data_v['Sub Category'];
+
+
+		$.each($data_subcat, function($k, $v) {
+			if (typeof $v === "object") {
+				$.each($v, function($title, $detail) {
+					var $clean_title = $($.parseHTML($title)).text().trim();
+					$live_search_jig[$clean_title] = css_safe($clean_title);
+
+					var $description_small = '';
+					if ($detail['Description'] !== 'Go') {
+						$description_small = '<br><small>' + $detail['Description'] + '</small>';
+					}
+					$live_search_feed.push('***' + $detail['Link'] + '***' + $clean_title + $description_small);
+				});
+			}
+
+		});
+	});
+
+	$('#sr-search').typeahead({
+		hint: true,
+		highlight: true,
+	}, {
+		name: 'sr_live_search',
+		limit: 12,
+		source: substringMatcher($live_search_feed),
+		display: function(data) {
+			return data.replace(/\*\*\*.+\*\*\*/, '').split('<br><small>')[0];
+		},
+		templates: {
+			suggestion: function(data) {
+				console.log(data.lastIndexOf("***"));
+				var link = data.substring(data.indexOf("***") + 3, data.lastIndexOf("***"));
+				return '<a href="' + link + '" target="_blank" class="sr-search-item">' + data.replace(/\*\*\*.+\*\*\*/, '').split('<br><small>')[0] + '</a>';
+			},
+		}
+	});
+</script>
+
+<script id="template-footer" type="text/html">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<h4> Tools & Resources</h4>
+				<span id="footer-tools-search"><input type="text" id="sr-search" placeholder="Quick search..." class="tt-input" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><i class="fa fa-search"></i></span>
+<!--				<small id="footer-tools-search-extra-link"><a href="#!" target="_blank">Or find more here <i class="fa fa-angle-right hover-right"></i></a></small>-->
+
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p><strong>Feedback</strong>
+					<br><a href="mailto:kim.mccormack@oracle.com">kim.mccormack@oracle.com</a></p>
+			</div>
+			<div id="footer-trailblazers" class="col-sm-4">
+				<h4>Contacts</h4>
+				<div class="listings-container">
+					<ul id="listings-trailblazers" class="listings"></ul>
+					<div class="listings-nav">
+						<div class="listings-prev">
+							<i class="fa fa-angle-up"></i>
+						</div>
+						<div class="listings-dots">
+							<div class="listings-dot listings-dot-1 active"></div>
+							<div class="listings-dot listings-dot-2"></div>
+							<div class="listings-dot listings-dot-3"></div>
+						</div>
+						<div class="listings-next">
+							<i class="fa fa-angle-down"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer-upcoming-events" class="col-sm-4">
+				<h4>Events</h4>
+				<div class="listings-container">
+					<ul id="listings-event" class="listings"></ul>
+					<div class="listings-nav">
+						<div class="listings-prev">
+							<i class="fa fa-angle-up"></i>
+						</div>
+						<div class="listings-dots">
+							<div class="listings-dot listings-dot-1 active"></div>
+							<div class="listings-dot listings-dot-2"></div>
+							<div class="listings-dot listings-dot-3"></div>
+						</div>
+						<div class="listings-next">
+							<i class="fa fa-angle-down"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<img id="footer-logo" src="img/logo-o.png">
+	</div>
+</script>
+
+
+<script id="template-listings-trailblazers" type="text/html">
+	{{#each .}}
+	<li>
+		<table>
+			<tr>
+				<td class="td-lead">
+					<div class="avatar" style="background-image: url(img/profile-pics/{{Image}});"></div>
+				</td>
+				<td><strong class="htext">{{{Name}}}</strong>
+					<br>{{{Position}}}</td>
+			</tr>
+		</table>
+	</li>
+	{{/each}}
+</script>
+
+
+<script id="template-listings-event" type="text/html">
+	{{#each .}}
+	<li>
+		<table>
+			<tr>
+				<td class="td-lead">
+				{{#if Date}}
+					<div class="date-round">
+						<span class="day">{{Day}}</span>
+						<span class="month">{{Month}}</span>
+					</div>
+				{{/if}}
+				</td>
+				<td><strong class="htext">{{{Title}}}</strong>
+					<br>{{{Excerpt}}}</td>
+			</tr>
+		</table>
+	</li>
+	{{/each}}
+</script>

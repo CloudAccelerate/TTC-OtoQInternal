@@ -1,0 +1,146 @@
+<!--
+
+Template: Team (Popup)
+
+-->
+
+<script>
+    $.each(teamData.RegionalChampions, function(i, v) {
+        teamData.RegionalChampions[i].Image = $data_directory + 'profile-pics/' + v.Image;
+    });
+    $.each(teamData.TopInfluencers, function(i, v) {
+        teamData.TopInfluencers[i].Image = $data_directory + 'profile-pics/' + v.Image;
+    });
+    $.each(teamData.DivisionalChampions, function(i, v) {
+        teamData.DivisionalChampions[i].Image = $data_directory + 'profile-pics/' + v.Image;
+    });
+    teamData.lobOwner.Image = $data_directory + 'profile-pics/' + teamData.lobOwner.Image;
+
+    var template = Handlebars.compile($("#team-template").html());
+    $('#team').html(template(teamData));
+</script>
+
+<script type="text/html" id="team-template">
+    <div class="popHead">
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-3">
+                <h2 id="lobTitle">{{lobTitle}}</h2>
+            </div>
+        </div>
+    </div>
+
+    {{#if message}}
+    <div class="msgHolder">
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="lobOwner" class="lobOwner">
+                    <img class="ownerImg" src="{{lobOwner.Image}}" />
+                    <div class="ownerdetails"><strong class="ownerName">{{lobOwner.Name}}</strong><span class="ownerposition">{{lobOwner.Role}}</span></div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="lobMsg">
+                    <h4 id="msgTitle">{{msgTitle}}</h4>
+                    <p id="message">{{message}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <div class="msgHolder">
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="lobOwner" class="lobOwner">
+                    <img class="ownerImg" src="{{lobOwner.Image}}" />
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="lobMsg">
+                    <div class="ownerdetails"><strong class="ownerName">{{lobOwner.Name}}</strong><span class="ownerposition">{{lobOwner.Role}}</span></div>
+                    <span class="TeamMemberLinks">
+					<a href="{{lobOwner.AriaProfile}}"><i class="fa fa-user"></i></a>
+					<a href="mailto:{{lobOwner.Email}}"><i class="fa fa-envelope"></i></a>
+					</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+
+    <!-- Nav tabs -->
+    <ul id="team-tabs" class="nav nav-tabs nav-justified" role="tablist">
+        <li role="presentation" class="active">
+            <!--            <a href="#team-1" aria-controls="team-1" role="tab" data-toggle="tab"></a>-->
+        </li>
+        <li role="presentation">
+            <!--            <a href="#team-2" aria-controls="team-2" role="tab" data-toggle="tab">tab</a>-->
+        </li>
+        <li role="presentation">
+            <!--            <a href="#team-3" aria-controls="team-3" role="tab" data-toggle="tab">tab</a>-->
+        </li>
+    </ul>
+    <!-- Tab panes -->
+    <div id="team-content-container" class="tab-content teamHolder">
+        <div id="team-1" role="tabpanel" class="tab-pane fade in active">
+            <div class="row">
+                {{#TopInfluencers}}
+                <div class="col-sm-4">
+                    <div class="panel panel-box">
+                        <div class="panel-body">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="memberImg" style="background-image: url({{Image}});"></div>
+                                        <!--                                        <div class="region {{Country}}">{{Region}}</div>-->
+                                    </td>
+                                    <td class="memberName"><span class="TeamMemberName">{{Name}}</span><span class="TeamMemberRole">{{Role}}</span><span class="TeamMemberLinks"><a href="{{AriaProfile}}" target="_blank" title="Aria Profile"><i class="fa fa-user"></i></a> &nbsp;<a href="mailto:{{Email}}" title="Email"><i class="fa fa-envelope"></i></a></td></tr>
+						</span></table>
+                        </div>
+                    </div>
+                </div>
+                {{/TopInfluencers}}
+            </div>
+        </div>
+        <div id="team-2" role="tabpanel" class="tab-pane fade in">
+            <div class="row">
+                {{#RegionalChampions}}
+                <div class="col-sm-4">
+                    <div class="panel panel-box">
+                        <div class="panel-body">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="memberImg" style="background-image: url({{Image}});"></div>
+                                        <!--                                        <div class="region {{Country}}">{{Region}}</div>-->
+                                    </td>
+                                    <td class="memberName"><span class="TeamMemberName">{{Name}}</span><span class="TeamMemberRole">{{Role}}</span><span class="TeamMemberLinks"><a href="{{AriaProfile}}" target="_blank" title="Aria Profile"><i class="fa fa-user"></i></a> &nbsp;<a href="mailto:{{Email}}" title="Email"><i class="fa fa-envelope"></i></a></td></tr>
+						</span></table>
+                        </div>
+                    </div>
+                </div>
+                {{/RegionalChampions}}
+            </div>
+        </div>
+        <div id="team-3" role="tabpanel" class="tab-pane fade in">
+            <div class="row">
+                {{#DivisionalChampions}}
+                <div class="col-sm-4">
+                    <div class="panel panel-box">
+                        <div class="panel-body">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="memberImg" style="background-image: url({{Image}});"></div>
+                                        <!--                                        <div class="region {{Country}}">{{Region}}</div>-->
+                                    </td>
+                                    <td class="memberName"><span class="TeamMemberName">{{Name}}</span><span class="TeamMemberRole">{{Role}}</span><span class="TeamMemberLinks"><a href="{{AriaProfile}}" target="_blank" title="Aria Profile"><i class="fa fa-user"></i></a> &nbsp;<a href="mailto:{{Email}}" title="Email"><i class="fa fa-envelope"></i></a></td></tr>
+						</span></table>
+                        </div>
+                    </div>
+                </div>
+                {{/DivisionalChampions}}
+            </div>
+        </div>
+    </div>
+</script>

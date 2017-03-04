@@ -1,0 +1,28 @@
+events = [   
+
+	{
+    "Title":"<a href='https://developer.oracle.com/code' target='blank'>Oracle Code - Austin</a>",
+    "Date":"March 8, 2017",
+    "Excerpt":" "
+    },
+    {
+    "Title":"<a href='https://developer.oracle.com/code' target='blank'>Oracle Code - New York City</a>",
+    "Date":"March 21, 2017",
+    "Excerpt":" "
+    },
+    {
+    "Title":"<a href='https://developer.oracle.com/code' target='blank'>Oracle Code - Washington DC</a>",
+    "Date":"March 27, 2017",
+    "Excerpt":" "
+    },
+    {
+    "Title":"<a href='https://developer.oracle.com/code' target='blank'>Oracle Code - Toronto</a>",
+    "Date":"April 18, 2017",
+    "Excerpt":" "
+    },
+    {
+    "Title":"<a href='https://developer.oracle.com/code' target='blank'>Oracle Code - Atlanta</a>",
+    "Date":"June 22, 2017",
+    "Excerpt":" "
+    }
+]
