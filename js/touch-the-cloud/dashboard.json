@@ -1,18 +1,17 @@
 dashboard_workshops_1 = {
-	"Time": "Q4",
-	"Items": [
-		{
-			"Title": "Customers Engaged",
-			"Value": ["1",""]
-		},
-		{
-			"Title": "Events Run",
-			"Value": ["1", "15"]
-		},
-		{
-			"Title": "Region Participation Rate",
-			"Value": ["1%", "30%"]
+    "Time": "Q4"
+    , "Items": [
+        {
+            "Title": "Customers Engaged"
+            , "Value": ["0", ""]
+		}
+        , {
+            "Title": "Events Run"
+            , "Value": ["0", ""]
+		}
+        , {
+            "Title": "Region Participation Rate"
+            , "Value": ["0%", "30%"]
 		}
 	]
 }
-
