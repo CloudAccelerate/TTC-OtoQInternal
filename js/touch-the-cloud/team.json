@@ -45,6 +45,33 @@ teamData={
     "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:336811311959241"
     },
     {
+    "Name":"Pieter Malan",
+    "Email":"pieter.malan@oracle.com",
+    "Image":"pieter-malan.png",
+    "Role":"Principle Sales Consultant",
+    "Region":"NA",
+    "Country":"NA",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:347840543547372"
+    },
+    {
+    "Name":"John VanSant",
+    "Email":"john.vansant@oracle.com",
+    "Image":"John-VanSant.png",
+    "Role":"Master Principle Sales Consultant",
+    "Region":"NA",
+    "Country":"NA",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:884795451010315"
+    },
+    {
+    "Name":"Daniel Tarudji",
+    "Email":"daniel.b.tarudji@oracle.com",
+    "Image":"Daniel-Tarudji.png",
+    "Role":"SaaS Platform Sales Consultant",
+    "Region":"NA",
+    "Country":"NA",
+    "AriaProfile":"https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:963584864424078"
+    },
+    {
     "Name":"Cam Crockett",
     "Email":"cam.crockett@oracle.com",
     "Image":"cam-crockett.png",

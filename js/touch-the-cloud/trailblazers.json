@@ -1,18 +1,33 @@
 trailblazers = [
 
-{
-"Name":"<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:336811311959241' target='blank'>Vijay Pawar</a>",
-"Position":"Master Principle Cloud Platform Specialst",
-"Image":"vijay-pawar.png",
-},
-{
-"Name":"<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:546681746277753' target='blank'>Geries AbouAyash</a>",
-"Position":"Sales Consulting Senior Director",
-"Image":"geries-abouayash.png",
-},
-{
-"Name":"<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:727330412500074' target='blank'>Cam Crockett</a>",
-"Position":"Senior Cloud Platform Specialst",
-"Image":"cam-crockett.png",
-}
+    {
+        "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:336811311959241' target='blank'>Vijay Pawar</a>"
+        , "Position": "Master Principle Cloud Platform Specialst"
+        , "Image": "vijay-pawar.png"
+, }
+    , {
+        "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:347840543547372' target='blank'>Pieter malan</a>"
+        , "Position": "Principle Sales Consultant"
+        , "Image": "pieter-malan.png"
+, }
+    , {
+        "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:884795451010315' target='blank'>John VanSant</a>"
+        , "Position": "Master Principle Sales Consultant"
+        , "Image": "John-VanSant.png"
+, }
+    , {
+        "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:963584864424078' target='blank'>Daniel Tarudji</a>"
+        , "Position": "SaaS Platform Sales Consultant"
+        , "Image": "Daniel-Tarudji.png"
+, }
+    , {
+        "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:546681746277753' target='blank'>Geries AbouAyash</a>"
+        , "Position": "Sales Consulting Senior Director"
+        , "Image": "geries-abouayash.png"
+, }
+    , {
+        "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:727330412500074' target='blank'>Cam Crockett</a>"
+        , "Position": "Senior Cloud Platform Specialst"
+        , "Image": "cam-crockett.png"
+, }
 ]
