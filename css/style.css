@@ -3124,6 +3124,10 @@ table.sbar td .score-right .score-divider {
     opacity: 1;
 }
 
+.rounded img {
+    border-radius: 50%;
+}
+
 #fa-pillars-nav p {
     font-size: 0.9em;
     margin: 0;
