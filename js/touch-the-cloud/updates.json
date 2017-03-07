@@ -5,7 +5,7 @@ lobSlider = [
         , "Date": ""
         , "Image": "cloud-touch.png"
         , "Link": "#popup-slider1"
-        , "BtnText": "Call To Action"
+        , "BtnText": "Run One Today"
         , "Tags": "Touch the Cloud"
     }
     , {
@@ -13,16 +13,16 @@ lobSlider = [
         , "Excerpt": "Workshops & demonstrations that will inspire."
         , "Date": ""
         , "Image": "opc_workshops.png"
-        , "Link": "#popup-slider1"
-        , "BtnText": "Call To Action"
+        , "Link": "#popup-slider2"
+        , "BtnText": "Get Hands-on OPC"
         , "Tags": "OPC Workshops"
     }, {
         "Title": "Live for the Code"
         , "Excerpt": "Join us at Oracle Code 2017 where developers come to learn—and play."
         , "Date": ""
         , "Image": "LiveForTheCode.png"
-        , "Link": "#popup-slider1"
-        , "BtnText": "Call To Action"
+        , "Link": "#popup-slider3"
+        , "BtnText": "Oracle Code Red Events"
         , "Tags": "Oracle code Red"
     }
 ]
