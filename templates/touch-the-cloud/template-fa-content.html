@@ -492,20 +492,6 @@ Template: Search
     };
     var $con_search_feed = [];
     var $con_hidden_search = {};
-    $.each(data, function ($data_k1, $data_v1) {
-        //if ($data_k1 === "Learn" || $data_k1 === "Position" || $data_k1 === "Win" || $data_k1 === "Adopt")
-        if ($data_k1 !== "ContentSet") {
-            $.each($data_v1, function ($data_k2, $data_v2) {
-                var $data_items = $data_v2['items'];
-                $.each($data_items, function ($index, $detail) {
-                    var $clean_title = $detail['title'];
-                    var $description_small = '<br><small>' + $detail['description'] + '</small>';
-                    var $tag = ' <span class="con-search-tag new">' + $detail['tag'].toUpperCase() + '</span>'
-                    $con_search_feed.push('***' + $detail['url'] + '***' + $clean_title + $tag + $description_small);
-                });
-            });
-        }
-    });
     $('#con-search').typeahead({
         hint: true
         , highlight: true
