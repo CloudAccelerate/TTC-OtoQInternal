@@ -3,7 +3,13 @@ teamData = {
     , "updated": ""
     , "msgTitle": ""
     , "message": ""
-    , "lobOwner": ""
+    , "lobOwner": {
+        "Name": ""
+        , "Email": ""
+        , "Image": ""
+        , "Role": ""
+        , "AriaProfile": ""
+    }
     , "DivisionalChampions": [
         {
             "Name": ""
