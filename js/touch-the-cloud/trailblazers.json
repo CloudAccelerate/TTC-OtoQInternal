@@ -26,6 +26,11 @@ trailblazers = [
         , "Image": "geries-abouayash.png"
 , }
     , {
+        "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:389742365636408' target='blank'>Samdani Shaik</a>"
+        , "Position": "Senion Sales Engineer"
+        , "Image": "samdani-shaik.png"
+, }
+    , {
         "Name": "<a href='https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:727330412500074' target='blank'>Cam Crockett</a>"
         , "Position": "Senior Cloud Platform Specialst"
         , "Image": "cam-crockett.png"

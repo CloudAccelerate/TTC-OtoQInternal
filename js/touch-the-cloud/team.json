@@ -4,11 +4,11 @@ teamData = {
     , "msgTitle": ""
     , "message": ""
     , "lobOwner": {
-        "Name": "Geries AbouAyash"
-        , "Email": "geries.abouayash@oracle.com"
-        , "Image": "geries-abouayash-large.png"
-        , "Role": "Sales Consulting Sr Director"
-        , "AriaProfile": "https://people.us.oracle.com/pls/oracle/f?p=8000:2:114976027929201::NO::PERSON_ID:546681746277753"
+        "Name": ""
+        , "Email": ""
+        , "Image": ""
+        , "Role": ""
+        , "AriaProfile": ""
     }
     , "DivisionalChampions": [
         {
@@ -71,7 +71,15 @@ teamData = {
             , "Country": "NA"
             , "AriaProfile": "https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:963584864424078"
     }
-        , {
+	, {
+            "Name": "Samdani Shaik"
+            , "Email": "samdani.shaik@oracle.com"
+            , "Image": "samdani-shaik.png"
+            , "Role": "Senior Sales Engineer"
+            , "Region": "NA"
+            , "Country": "NA"
+            , "AriaProfile": "https://people.us.oracle.com/pls/oracle/f?p=8000:2:::::PERSON_ID:389742365636408"
+    }        , {
             "Name": "Cam Crockett"
             , "Email": "cam.crockett@oracle.com"
             , "Image": "cam-crockett.png"
@@ -79,6 +87,15 @@ teamData = {
             , "Region": "Canada"
             , "Country": "Canada"
             , "AriaProfile": "https://people.us.oracle.com/pls/oracle/f?p=8000:2:::NO::PERSON_ID:727330412500074"
+    }
+	, {
+            "Name": "Geries Abouayash"
+            , "Email": "geries.abouayash@oracle.com"
+            , "Image": "geries-abouayash.png"
+            , "Role": "Sales Consulting Sr. Director"
+            , "Region": "NA"
+            , "Country": "NA"
+            , "AriaProfile": "https://people.us.oracle.com/pls/oracle/f?p=8000:2:114976027929201::NO::PERSON_ID:546681746277753"
     }
 ]
 }
