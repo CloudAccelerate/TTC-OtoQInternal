@@ -4,29 +4,8 @@ teamData = {
     , "msgTitle": ""
     , "message": ""
     , "lobOwner": ""
-    , "DivisionalChampions": [
-        {
-            "Name": ""
-            , "Email": ""
-            , "Image": ""
-            , "Role": ""
-            , "Region": ""
-            , "Country": ""
-            , "AriaProfile": ""
-    }
-]
-    , "RegionalChampions": [
-        {
-            "Name": ""
-            , "Email": ""
-            , "Image": ""
-            , "Role": ""
-            , "Region": ""
-            , "Country": ""
-            , "AriaProfile": ""
-    }
-
-]
+    , "DivisionalChampions": ""
+    , "RegionalChampions": ""
     , "TopInfluencers": [
 
         {
