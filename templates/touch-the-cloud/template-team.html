@@ -14,7 +14,7 @@ Template: Team (Popup)
     $.each(teamData.DivisionalChampions, function(i, v) {
         teamData.DivisionalChampions[i].Image = $data_directory + 'profile-pics/' + v.Image;
     });
-    teamData.lobOwner.Image = $data_directory + 'profile-pics/' + teamData.lobOwner.Image;
+<!--    teamData.lobOwner.Image = $data_directory + 'profile-pics/' + teamData.lobOwner.Image;-->
 
     var template = Handlebars.compile($("#team-template").html());
     $('#team').html(template(teamData));
@@ -32,14 +32,16 @@ Template: Team (Popup)
     {{#if message}}
     <div class="msgHolder">
         <div class="row">
-            <div class="col-sm-3">
-                <div id="lobOwner" class="lobOwner">
+<!--            
+          <div class="col-sm-3">
+			<div id="lobOwner" class="lobOwner">
                     <img class="ownerImg" src="{{lobOwner.Image}}" />
                     <div class="ownerdetails"><strong class="ownerName">{{lobOwner.Name}}</strong><span class="ownerposition">{{lobOwner.Role}}</span></div>
                     
-                </div>
-            </div>
-            <div class="col-sm-9">
+                </div>	
+           </div>
+-->
+            <div class="col-sm-12">
                 <div class="lobMsg">
                     <h4 id="msgTitle">{{msgTitle}}</h4>
                     <p id="message">{{message}}</p>
@@ -50,12 +52,14 @@ Template: Team (Popup)
     {{else}}
     <div class="msgHolder">
         <div class="row">
+<!--
             <div class="col-sm-3">
                 <div id="lobOwner" class="lobOwner">
                     <img class="ownerImg" src="{{lobOwner.Image}}" />
                 </div>
             </div>
-            <div class="col-sm-9">
+
+            <div class="col-sm-12">
                 <div class="lobMsg">
                     <div class="ownerdetails"><strong class="ownerName">{{lobOwner.Name}}</strong><span class="ownerposition">{{lobOwner.Role}}</span></div>
                     <span class="TeamMemberLinks">
@@ -64,7 +68,8 @@ Template: Team (Popup)
 					</span>
                 </div>
             </div>
-        </div>
+-->
+			</div>
     </div>
     {{/if}}
 
