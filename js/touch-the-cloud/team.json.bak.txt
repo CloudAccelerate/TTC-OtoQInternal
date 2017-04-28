@@ -1,5 +1,5 @@
 teamData = {
-    "lobTitle": "Touch The Cloud Champions"
+    "lobTitle": "Workshop Champions"
     , "updated": ""
     , "msgTitle": ""
     , "message": ""

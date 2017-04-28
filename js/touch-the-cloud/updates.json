@@ -1,28 +1,11 @@
 lobSlider = [
     {
-        "Title": "Touch The Cloud"
+        "Title": "Cloud Accelerate: iPaaS - Build a Quote to Order Process Workshop"
         , "Excerpt": "Engage and inspire customers with innovative cloud workshops"
         , "Date": ""
         , "Image": "cloud-touch.png"
         , "Link": "#popup-slider1"
         , "BtnText": "Run One Today"
-        , "Tags": "Touch the Cloud"
-    }
-    , {
-        "Title": "OPC Workshops"
-        , "Excerpt": "Workshops & demonstrations that will inspire."
-        , "Date": ""
-        , "Image": "opc_workshops.png"
-        , "Link": "#popup-slider2"
-        , "BtnText": "Get Hands-on OPC"
-        , "Tags": "OPC Workshops"
-    }, {
-        "Title": "Live for the Code"
-        , "Excerpt": "Join us at Oracle Code 2017 where developers come to learn—and play."
-        , "Date": ""
-        , "Image": "LiveForTheCode.png"
-        , "Link": "#popup-slider3"
-        , "BtnText": "Oracle Code Red Events"
-        , "Tags": "Oracle code Red"
+        , "Tags": "Cloud Accelerate"
     }
 ]
